@@ -1,0 +1,94 @@
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: column;
+	/*background-color: hsl(218, 22%, 67%);*/
+	font-family: 'Karla', sans-serif;
+	font-size: 16px;
+
+}
+.middle{
+	background-color:white;
+	justify-content: center;
+
+background-color: #F8F3F3;
+}
+.middle h2{
+color: hsl(179, 62%, 43%);
+margin-left: 3%;
+font-weight: 700;
+margin-top: 3%;
+}
+.middle h3{
+	color:  hsl(71, 73%, 54%);
+	margin-left: 3%;font-weight: 700;
+}
+.middle p{
+	color:  hsl(218, 22%, 67%);
+	margin-left: 3%;font-weight: 700;
+}
+.second{
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: row;
+	
+}
+.left{
+	background-color: hsl(179, 62%, 43%);
+	color: hsl(204, 43%, 93%);
+	width: 50%;
+	
+
+}
+.left h3{
+	font-weight: 700;margin-left: 5%;
+	margin-top: 5%;
+}
+.left p{
+	font-weight: 700;margin-left: 5%;color: rgba(229,239,245,1);
+}
+span{
+	font-size: 30px;
+	font-weight: bold;
+}
+.btn{
+	background-color:hsl(71, 73%, 54%) ;
+	border: none;
+	font-weight: 700;
+	margin-left: 3%;
+	width: 50%;
+
+}
+.right{
+	color: white;
+	background-color: hsl(179, 70%, 44%);
+	width: 50%;
+	
+}
+.right h3{
+	font-weight: 700;margin-left: 6%;
+	margin-top: 5%;
+	
+
+}
+.right p{
+	margin-left: 6%;
+	color: hsl(204, 43%, 93%);
+
+}
+#permonth{
+	color: rgba(229,239,245,.5);
+	font-size: 16px;
+
+}
+@media screen and (max-width: 375px){
+	.middle{
+		width: 50%;
+	}
+	.second{
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: column;
+	
+}
+}
